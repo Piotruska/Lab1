@@ -1,16 +1,16 @@
 ﻿//After Merge
 //Task 4
-static double max(int[] arrr)
+static double max(int[] array)
 {
-    int maxxxx = arrr[0];
-    foreach (int x in arrr)
+    int maximum = array[0];
+    foreach (int x in array)
     {
-        if (x > maxxxx)
+        if (x > maximum)
         {
-            maxxxx = x;
+            maximum = x;
         }
     }
-    return maxxxx;
+    return maximum;
 }
 Console.WriteLine(max(new []{1,2,3,4,5,6,7,8,9,10}));
 
