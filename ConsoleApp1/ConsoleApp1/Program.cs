@@ -1,4 +1,20 @@
 ﻿//After Merge
+//Task 4
+static double max(int[] arr)
+{
+    int max = arr[0];
+    foreach (int x in arr)
+    {
+        if (x > max)
+        {
+            max = x;
+        }
+    }
+    return max;
+}
+Console.WriteLine(max(new []{1,2,3,4,5,6,7,8,9,10}));
+
+
 //Task 3
 static double MyMethod(int[] arr)
 {
