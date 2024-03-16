@@ -1,4 +1,16 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿//Task 3
+static double MyMethod(int[] arr)
+{
+    double total = 0;
+    int len = arr.Length;
+    foreach (int x in arr)
+    {
+        total += x;
+    }
+    return total/len;
+}
+Console.WriteLine(MyMethod(new []{1,2,3,4,5,6,7,8,9,10}));
+
 
 Console.WriteLine("Hello, World!");
 
@@ -25,3 +37,4 @@ class Car : Vechicle
     protected int numberOfDoors;
     
 }
+
