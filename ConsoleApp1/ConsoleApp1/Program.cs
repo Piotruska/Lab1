@@ -1,4 +1,5 @@
-﻿//Task 3
+﻿//After Merge
+//Task 3
 static double MyMethod(int[] arr)
 {
     double total = 0;
