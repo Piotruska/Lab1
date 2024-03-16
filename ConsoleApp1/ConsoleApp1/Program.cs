@@ -11,3 +11,17 @@ double myDoubleNum = 5.99D;
 char myLetter = 'D';
 bool myBool = true;
 string myText = "Hello";
+
+
+//Modification 3
+class Vechicle
+{
+    protected string name;
+    protected int numberOfSouls;
+}
+
+class Car : Vechicle
+{
+    protected int numberOfDoors;
+    
+}
